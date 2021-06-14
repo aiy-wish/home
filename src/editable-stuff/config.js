@@ -63,6 +63,39 @@ const repos = {
   specificRepos: ['stockets', 'musico-flask-app', 'Chord-Dictionary','HealthApp','VR_Locomotion'],
 };
 
+const career = {
+  show: true,
+  heading: "Career",
+  lists: [
+    {
+      CompanyName: "flydubai",
+      Address: "Dubai, United Arab Emirates",
+      Title: "DevOps/Big Data Intern",
+      Time: "June 2019 - August 2019",
+      Descriptions: ['Built a statistical model using Python to compare competitor’s performance for airline market research and worked on intelligence gathering tool to analyze competitor’s performance.'],
+      TechStack: ["Python, R Azure DevOps, Jenkins, Cloudera"]
+    }
+  ]
+};
+const education = {
+  show: true,
+  heading: "Education",
+  lists: [
+    {
+      university: "Dartmouth College",
+      degree: "Master of Science in Quantitative Biomedical Sciences",
+      time: "August 2021 - December 2022",
+      description:"Incoming Student"
+    },
+    {
+      university: "University of Maryland - College Park",
+      degree: "Bachelor of Science in Computer Science",
+      time: "August 2017 - May 2021",
+      description:"Graduated with a minor in Statistics"
+    }]
+  };
+
+
 // Leadership SECTION
 const leadership = {
   show: false,
@@ -118,7 +151,7 @@ const getInTouch = {
   show: true,
   heading: "Get In Touch",
   message:
-    "I'm currently looking for internships related to Data Science or Machine Learning! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
+    "I'm currently looking for zyyy! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
   email: "c_ayush@outlook.com",
 };
 
@@ -144,4 +177,4 @@ const blog = {
    show: true,
 };
 
-export { navBar, mainBody, about, repos, skills, leadership, getInTouch, experiences, blog };
+export { navBar, mainBody, about, repos, skills, leadership, getInTouch, experiences, blog , career, education};
