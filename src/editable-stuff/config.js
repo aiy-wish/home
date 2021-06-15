@@ -121,6 +121,15 @@ const leadership = {
 };
 
 // SKILLS SECTION
+
+const  newSkills = {
+  show: true,
+  heading: "Skills",
+  // message:
+  //   "I'm currently looking for Software Developer opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
+  // email: "shannel.philp@yahoo.com",
+}
+
 const skills = {
   show: true,
   heading: "Skills",
@@ -148,10 +157,10 @@ const skills = {
 
 // GET IN TOUCH SECTION
 const getInTouch = {
-  show: true,
+  show: false,
   heading: "Get In Touch",
   message:
-    "I'm currently looking for zyyy! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
+    "If you have any questions, or if you just want to say hi, please feel free to ",
   email: "c_ayush@outlook.com",
 };
 
@@ -177,4 +186,4 @@ const blog = {
    show: true,
 };
 
-export { navBar, mainBody, about, repos, skills, leadership, getInTouch, experiences, blog , career, education};
+export { navBar, mainBody, about, repos, skills, leadership, getInTouch, experiences, blog , career, education, newSkills};
