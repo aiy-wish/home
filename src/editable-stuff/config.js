@@ -131,7 +131,7 @@ const  newSkills = {
 }
 
 const skills = {
-  show: true,
+  show: false,
   heading: "Skills",
   hardSkills: [
     { name: "Python", value: 90 },
@@ -157,7 +157,7 @@ const skills = {
 
 // GET IN TOUCH SECTION
 const getInTouch = {
-  show: false,
+  show: true,
   heading: "Get In Touch",
   message:
     "If you have any questions, or if you just want to say hi, please feel free to ",
